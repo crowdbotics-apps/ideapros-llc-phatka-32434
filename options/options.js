@@ -38,17 +38,20 @@ const styles = StyleSheet.create({
     fontSize: 16
   }
 })
+
 export const globalOptions = {
   name: "ideapros_llc_phatka_32434",
   url: "https://ideapros_llc_phatka_32434.botics.co",
   api: "https://ideapros_llc_phatka_32434.botics.co/api/v1"
 }
+
 export const modulesOptions = {
   "@modules/app-menu": {
     title: "App Menu",
     copy: "Routes available!",
     styles: styles
   },
+
   "@modules/login": {
     LOGO_URL:
       "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/cb-icon.png",
